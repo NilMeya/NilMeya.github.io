@@ -375,7 +375,7 @@ export default function App() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed max-w-xl text-base lg:text-[1.05rem]">
               <p>
-                Based in San Francisco, I&apos;ve spent the last five years
+                Based in Delft, The Netherlands, I&apos;ve spent the last five years
                 building full-stack products at the intersection of engineering
                 rigor and product craft. I care deeply about developer
                 experience, performance, and the details that make software feel

@@ -430,7 +430,7 @@ export default function App() {
                 className="text-xs text-muted-foreground"
                 style={{ fontFamily: "'DM Mono', monospace" }}
               >
-                Your Full Name
+                Nil Meya Mendoza
               </div>
               <div
                 className="text-xs text-accent"

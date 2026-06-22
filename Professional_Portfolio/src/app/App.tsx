@@ -100,7 +100,7 @@ const SOCIALS = [
   },
   {
     label: "LinkedIn",
-    handle: "Your Full Name",
+    handle: "Nil Meya Mendoza",
     icon: Linkedin,
     url: "https://linkedin.com",
   },
@@ -165,7 +165,7 @@ export default function App() {
             className="text-sm tracking-[0.15em] uppercase text-foreground/90 hover:text-accent transition-colors"
             style={{ fontFamily: "'DM Mono', monospace" }}
           >
-            Your Name
+            Nil Meya Mendoza
           </button>
           <div className="hidden md:flex items-center gap-8">
             {["about", "work", "connect"].map((s) => (
@@ -812,7 +812,7 @@ export default function App() {
             className="text-xs text-muted-foreground"
             style={{ fontFamily: "'DM Mono', monospace" }}
           >
-            © 2026 Your Full Name. All rights reserved.
+            © 2026 Nil Meya Mendoza. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
             {["GitHub", "Twitter", "LinkedIn"].map((l) => (

@@ -3,11 +3,11 @@
 :root {
   --font-size: 16px;
   --background: #ffffff;
-  --foreground: oklch(0.128 0.041 275.267);
+  --foreground: oklch(0.145 0 0);
   --card: #ffffff;
-  --card-foreground: oklch(0.128 0.041 275.267);
+  --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.128 0.041 275.267);
+  --popover-foreground: oklch(0.145 0 0);
   --primary: #030213;
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.95 0.0058 264.53);
@@ -42,11 +42,11 @@
 }
 
 .dark {
-  --background: oklch(0.128 0.041 275.267);
+  --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
-  --card: oklch(0.128 0.041 275.267);
+  --card: oklch(0.145 0 0);
   --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.128 0.041 275.267);
+  --popover: oklch(0.145 0 0);
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.985 0 0);
   --primary-foreground: oklch(0.205 0 0);

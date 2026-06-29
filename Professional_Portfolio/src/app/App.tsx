@@ -419,7 +419,7 @@ export default function App() {
               <img
                 src={nilImage}
                 alt="Portrait"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover transition-all duration-700"
               />
               <div
                 className="absolute inset-0 border border-accent/20"

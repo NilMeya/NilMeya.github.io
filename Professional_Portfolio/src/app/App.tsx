@@ -88,25 +88,25 @@ const SKILLS = [
 const SOCIALS = [
   {
     label: "GitHub",
-    handle: "@yourhandle",
+    handle: "@NilMeya",
     icon: Github,
     url: "https://github.com/NilMeya",
   },
   {
     label: "LinkedIn",
-    handle: "Your Full Name",
+    handle: "Nil Meya i Mendoza",
     icon: Linkedin,
     url: "https://www.linkedin.com/in/nilmeyamendoza/",
   },
   {
     label: "Email",
-    handle: "hello@yoursite.com",
+    handle: "nilmeya2003@gmail.com",
     icon: Mail,
     url: "mailto:nilmeya2003@gmail.com",
   },
   {
-    label: "Website / Blog",
-    handle: "yoursite.com",
+    label: "Website",
+    handle: "nilmeya",
     icon: Globe,
     url: "https://nilmeya.netlify.app/",
   },
@@ -747,7 +747,7 @@ export default function App() {
                 about it.
               </p>
               <a
-                href="mailto:hello@yoursite.com"
+                href="mailto:nilmeya2003@gmail.com"
                 className="inline-flex items-center gap-2 mt-8 bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:bg-accent/90 transition-colors"
                 style={{ borderRadius: "2px" }}
               >
@@ -806,7 +806,7 @@ export default function App() {
             className="text-xs text-muted-foreground"
             style={{ fontFamily: "'DM Mono', monospace" }}
           >
-            © 2026 Your Full Name. All rights reserved.
+            © 2026 Nil Meya i Mendoza. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
             {["GitHub", "Twitter", "LinkedIn"].map((l) => (

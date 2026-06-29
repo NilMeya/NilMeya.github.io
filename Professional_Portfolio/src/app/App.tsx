@@ -91,31 +91,25 @@ const SOCIALS = [
     label: "GitHub",
     handle: "@yourhandle",
     icon: Github,
-    url: "https://github.com",
-  },
-  {
-    label: "Twitter / X",
-    handle: "@yourhandle",
-    icon: Twitter,
-    url: "https://twitter.com",
+    url: "https://github.com/NilMeya",
   },
   {
     label: "LinkedIn",
     handle: "Nil Meya Mendoza",
     icon: Linkedin,
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/nilmeyamendoza/",
   },
   {
     label: "Email",
     handle: "hello@yoursite.com",
     icon: Mail,
-    url: "mailto:hello@yoursite.com",
+    url: "mailto:nilmeya2003@gmail.com",
   },
   {
     label: "Website / Blog",
     handle: "yoursite.com",
     icon: Globe,
-    url: "#",
+    url: "https://nilmeya.netlify.app/",
   },
 ];
 

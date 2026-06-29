@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import { Github, Twitter, Linkedin, ArrowUpRight, Mail, Globe, Menu, X, Download } from "lucide-react";
-import nilImage from "../../Nili.jpeg";
 
 const PROJECTS = [
   {
@@ -89,25 +88,25 @@ const SKILLS = [
 const SOCIALS = [
   {
     label: "GitHub",
-    handle: "@yourhandle",
+    handle: "@NilMeya",
     icon: Github,
     url: "https://github.com/NilMeya",
   },
   {
     label: "LinkedIn",
-    handle: "Nil Meya Mendoza",
+    handle: "Nil Meya i Mendoza",
     icon: Linkedin,
     url: "https://www.linkedin.com/in/nilmeyamendoza/",
   },
   {
     label: "Email",
-    handle: "hello@yoursite.com",
+    handle: "nilmeya2003@gmail.com",
     icon: Mail,
     url: "mailto:nilmeya2003@gmail.com",
   },
   {
-    label: "Website / Blog",
-    handle: "yoursite.com",
+    label: "Website",
+    handle: "nilmeya",
     icon: Globe,
     url: "https://nilmeya.netlify.app/",
   },
@@ -146,11 +145,11 @@ export default function App() {
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
         style={{
           background: navScrolled
-            ? "rgba(7,17,31,0.88)"
+            ? "rgba(13,13,13,0.92)"
             : "transparent",
           backdropFilter: navScrolled ? "blur(12px)" : "none",
           borderBottom: navScrolled
-            ? "1px solid rgba(96,165,250,0.16)"
+            ? "1px solid rgba(242,237,232,0.08)"
             : "1px solid transparent",
         }}
       >
@@ -160,7 +159,7 @@ export default function App() {
             className="text-sm tracking-[0.15em] uppercase text-foreground/90 hover:text-accent transition-colors"
             style={{ fontFamily: "'DM Mono', monospace" }}
           >
-            Nil Meya Mendoza
+            Your Name
           </button>
           <div className="hidden md:flex items-center gap-8">
             {["about", "work", "connect"].map((s) => (
@@ -257,7 +256,7 @@ export default function App() {
         </div>
 
         {/* Right — image split */}
-        <div className="relative hidden lg:block bg-[#07111f]">
+        <div className="relative hidden lg:block bg-[#111]">
           <img
             src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=900&h=1100&fit=crop&auto=format"
             alt="Developer at work"
@@ -268,7 +267,7 @@ export default function App() {
             className="absolute inset-0"
             style={{
               background:
-                "linear-gradient(to right, #07111f 0%, transparent 30%)",
+                "linear-gradient(to right, #0D0D0D 0%, transparent 30%)",
             }}
           />
           {/* Floating stat cards */}
@@ -411,9 +410,9 @@ export default function App() {
               style={{ aspectRatio: "3/4", borderRadius: "2px" }}
             >
               <img
-                src={nilImage}
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=660&fit=crop&auto=format&facepad=3"
                 alt="Portrait"
-                className="w-full h-full object-contain p-3 transition-all duration-700"
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
               <div
                 className="absolute inset-0 border border-accent/20"
@@ -442,7 +441,7 @@ export default function App() {
       <section
         id="work"
         className="py-28 lg:py-40 border-t border-border"
-        style={{ background: "#08111f" }}
+        style={{ background: "#101010" }}
       >
         <div className="px-6 lg:px-16 xl:px-20 max-w-7xl mx-auto">
           <div className="flex items-end justify-between mb-16 gap-6 flex-wrap">
@@ -717,7 +716,7 @@ export default function App() {
       <section
         id="connect"
         className="py-28 lg:py-40 border-t border-border"
-        style={{ background: "#06101c" }}
+        style={{ background: "#0A0A0A" }}
       >
         <div className="px-6 lg:px-16 xl:px-20 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-16 lg:gap-24">
@@ -748,7 +747,7 @@ export default function App() {
                 about it.
               </p>
               <a
-                href="mailto:hello@yoursite.com"
+                href="mailto:nilmeya2003@gmail.com"
                 className="inline-flex items-center gap-2 mt-8 bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:bg-accent/90 transition-colors"
                 style={{ borderRadius: "2px" }}
               >
@@ -807,7 +806,7 @@ export default function App() {
             className="text-xs text-muted-foreground"
             style={{ fontFamily: "'DM Mono', monospace" }}
           >
-            © 2026 Nil Meya Mendoza. All rights reserved.
+            © 2026 Nil Meya i Mendoza. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
             {["GitHub", "Twitter", "LinkedIn"].map((l) => (

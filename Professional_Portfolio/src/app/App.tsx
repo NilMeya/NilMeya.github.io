@@ -151,11 +151,11 @@ export default function App() {
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
         style={{
           background: navScrolled
-            ? "rgba(13,13,13,0.92)"
+            ? "rgba(7,17,31,0.88)"
             : "transparent",
           backdropFilter: navScrolled ? "blur(12px)" : "none",
           borderBottom: navScrolled
-            ? "1px solid rgba(242,237,232,0.08)"
+            ? "1px solid rgba(96,165,250,0.16)"
             : "1px solid transparent",
         }}
       >
@@ -262,7 +262,7 @@ export default function App() {
         </div>
 
         {/* Right — image split */}
-        <div className="relative hidden lg:block bg-[#111]">
+        <div className="relative hidden lg:block bg-[#07111f]">
           <img
             src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=900&h=1100&fit=crop&auto=format"
             alt="Developer at work"
@@ -273,7 +273,7 @@ export default function App() {
             className="absolute inset-0"
             style={{
               background:
-                "linear-gradient(to right, #0D0D0D 0%, transparent 30%)",
+                "linear-gradient(to right, #07111f 0%, transparent 30%)",
             }}
           />
           {/* Floating stat cards */}
@@ -416,7 +416,7 @@ export default function App() {
               style={{ aspectRatio: "3/4", borderRadius: "2px" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=660&fit=crop&auto=format&facepad=3"
+                src="blob:https://web.whatsapp.com/e0bfbd0b-f874-4f10-bc32-eff7d3387621"
                 alt="Portrait"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -447,7 +447,7 @@ export default function App() {
       <section
         id="work"
         className="py-28 lg:py-40 border-t border-border"
-        style={{ background: "#101010" }}
+        style={{ background: "#08111f" }}
       >
         <div className="px-6 lg:px-16 xl:px-20 max-w-7xl mx-auto">
           <div className="flex items-end justify-between mb-16 gap-6 flex-wrap">
@@ -722,7 +722,7 @@ export default function App() {
       <section
         id="connect"
         className="py-28 lg:py-40 border-t border-border"
-        style={{ background: "#0A0A0A" }}
+        style={{ background: "#06101c" }}
       >
         <div className="px-6 lg:px-16 xl:px-20 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-16 lg:gap-24">

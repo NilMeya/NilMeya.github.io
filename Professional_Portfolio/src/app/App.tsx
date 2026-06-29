@@ -419,7 +419,7 @@ export default function App() {
               <img
                 src={nilImage}
                 alt="Portrait"
-                className="w-full h-full object-contain p-3 transitioAn-all duration-700"
+                className="w-full h-full object-contain p-3 transition-all duration-700"
               />
               <div
                 className="absolute inset-0 border border-accent/20"

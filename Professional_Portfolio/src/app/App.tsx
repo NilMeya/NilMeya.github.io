@@ -417,7 +417,7 @@ export default function App() {
               style={{ aspectRatio: "3/4", borderRadius: "2px" }}
             >
               <img
-                  src={nilImage}
+                src={nilImage}
                 alt="Portrait"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />

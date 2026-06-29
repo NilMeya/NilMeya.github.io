@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Github, Twitter, Linkedin, ArrowUpRight, Mail, Globe, Menu, X, Download } from "lucide-react";
+import niliImage from "../../Nili.jpeg";
 
 const PROJECTS = [
   {
@@ -416,7 +417,7 @@ export default function App() {
               style={{ aspectRatio: "3/4", borderRadius: "2px" }}
             >
               <img
-                src="blob:https://web.whatsapp.com/e0bfbd0b-f874-4f10-bc32-eff7d3387621"
+                src={niliImage}
                 alt="Portrait"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />

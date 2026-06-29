@@ -809,16 +809,15 @@ export default function App() {
             © 2026 Nil Meya i Mendoza. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
-            {["GitHub", "Twitter", "LinkedIn"].map((l) => (
-              <a
-                key={l}
-                href="#"
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-                style={{ fontFamily: "'DM Mono', monospace" }}
-              >
-                {l}
+            {[
+              { label: "GitHub", url: "https://github.com/NilMeya" },
+              { label: "LinkedIn", url: "https://www.linkedin.com/in/nilmeyamendoza/" },
+              { label: "Gmail", url: "mailto:nilmeya2003@gmail.com" },
+            ].map((l) => (
+                <a key={l.label} href={l.url} target="_blank" rel="noopener noreferrer" ...>
+            {l.label}
               </a>
-            ))}
+              ))}
           </div>
           <div
             className="text-xs text-muted-foreground/40"
